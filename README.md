@@ -1,4 +1,5 @@
 # KoboCloud
+
 A set of scripts to synchronize a kobo reader with popular cloud services.
 
 The following cloud services are supported:
@@ -8,6 +9,17 @@ The following cloud services are supported:
 - NextCloud/OwnCloud
 - pCloud
 
+## Fork
+
+Downloaded rclone from here: https://downloads.rclone.org/v1.53.4/rclone-v1.53.4-linux-arm-v7.zip
+
+```
+# Remove the # from the following line to uninstall KoboCloud
+#UNINSTALL
+
+RCLONE remote:Books/kobo
+
+```
 
 ## Installation
 
